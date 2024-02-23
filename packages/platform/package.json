@@ -1,0 +1,12 @@
+{
+  "name": "@df-persistence/platform",
+  "version": "1.1.2",
+  "description": "get relevant platform information",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zengyu",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@df-persistence/location",
+  "version": "1.2.34",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zengyu",
+  "license": "ISC",
+  "dependencies": {
+    "@df-persistence/app-location": "^1.2.34",
+    "@df-persistence/dingtalk-location": "^1.2.33",
+    "@df-persistence/platform": "^1.1.2",
+    "@df-persistence/utils": "^1.2.33",
+    "@df-persistence/wx-location": "^1.2.33",
+    "@df-persistence/wxwork-location": "^1.2.33",
+    "@df-persistence/zipkin": "^1.2.33"
+  }
+}

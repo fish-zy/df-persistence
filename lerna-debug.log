@@ -1,0 +1,8 @@
+100 error Error: Command failed with exit code 128: git tag v1.1.3 -m v1.1.3
+100 error fatal: tag 'v1.1.3' already exists
+100 error     at makeError (/Users/zengyu/zengyu/df-persistence/node_modules/execa/lib/error.js:59:11)
+100 error     at handlePromise (/Users/zengyu/zengyu/df-persistence/node_modules/execa/index.js:114:26)
+100 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+100 error     at async VersionCommand.gitCommitAndTagVersion (/Users/zengyu/zengyu/df-persistence/node_modules/lerna/dist/index.js:8365:9)
+100 error     at async VersionCommand.commitAndTagUpdates (/Users/zengyu/zengyu/df-persistence/node_modules/lerna/dist/index.js:8330:18)
+100 error     at async Promise.all (index 0)

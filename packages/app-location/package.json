@@ -1,0 +1,17 @@
+{
+  "name": "@persistence/app-location",
+  "version": "1.2.34",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zengyu",
+  "license": "ISC",
+  "dependencies": {
+    "@persistence/utils": "^1.2.33",
+    "@persistence/zipkin": "^1.2.33",
+    "df_hybrid": "^2.1.3"
+  }
+}
